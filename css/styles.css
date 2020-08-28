@@ -8,7 +8,7 @@ body {
   background-size: cover;
 }
 .first {
-  padding: 5cm;
+  padding: 4.5cm;
 }
 #mouseclick {
   padding: 4cm;
@@ -16,4 +16,6 @@ body {
 .services {
   background-image: url(../IP3/assets/backgrounds/s_image.jpg);
   height: 340px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
