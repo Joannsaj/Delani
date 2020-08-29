@@ -52,3 +52,7 @@ form {
   width: 400px;
   opacity: 0.4;
 }
+.socials {
+  display: flex;
+  justify-content: center;
+}
