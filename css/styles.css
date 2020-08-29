@@ -45,3 +45,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+form {
+  margin-left: 100px;
+}
+.form-group {
+  width: 400px;
+  opacity: 0.4;
+}
