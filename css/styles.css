@@ -6,7 +6,6 @@ body {
   height: 650px;
   background-repeat: no-repeat; 
   background-size: cover;
-  width: auto;
 }
 .first {
   padding: 4.5cm;
@@ -19,7 +18,6 @@ body {
   height: 340px;
   background-repeat: no-repeat;
   background-size: cover;
-  width: auto;
 }
 .second {
   padding: 3cm;
@@ -40,4 +38,10 @@ body {
 .portfolio2 {
   margin-left: 100px;
   margin-right: 100px;
+}
+.contact {
+  background-image: url(../IP3/assets/backgrounds/c_image.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
