@@ -6,6 +6,7 @@ body {
   height: 650px;
   background-repeat: no-repeat; 
   background-size: cover;
+  width: auto;
 }
 .first {
   padding: 4.5cm;
@@ -18,7 +19,25 @@ body {
   height: 340px;
   background-repeat: no-repeat;
   background-size: cover;
+  width: auto;
 }
 .second {
   padding: 3cm;
+}
+
+.portfolio img {
+  width: 100%;
+  height: 100%;
+}
+.portfolio2 img {
+  width: 100%;
+  height: 100%;
+}
+.portfolio {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.portfolio2 {
+  margin-left: 100px;
+  margin-right: 100px;
 }
