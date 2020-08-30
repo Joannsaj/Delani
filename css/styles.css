@@ -49,9 +49,13 @@ body {
 }
 form {
   margin-left: 200px;
+  margin-right: 200px;
 }
 .form-group {
   width: 400px;
+  opacity: 0.5;
+}
+button {
   opacity: 0.5;
 }
 .socials {
