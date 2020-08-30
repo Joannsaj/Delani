@@ -52,7 +52,7 @@ form {
 }
 .form-group {
   width: 400px;
-  opacity: 0.4;
+  opacity: 0.5;
 }
 .socials {
   display: flex;
@@ -65,6 +65,98 @@ form {
   position: absolute;
   display: none;
   margin-left: 0.5cm;
+  margin-top: 0.5cm;
+  border: 2px solid white;
+  height: 150px;
+  width: 5cm;
+  text-align: left;
+}
+#img2 {
+  position: relative;
+}
+.hover2 {
+  position: absolute;
+  display: none;
+  margin-left: 0.5cm;
+  margin-top: 0.5cm;
+  border: 2px solid white;
+  height: 150px;
+  width: 5cm;
+  text-align: left;
+}
+#img3 {
+  position: relative;
+}
+.hover3 {
+  position: absolute;
+  display: none;
+  margin-left: 0.5cm;
+  margin-top: 0.5cm;
+  border: 2px solid white;
+  height: 150px;
+  width: 5cm;
+  text-align: left;
+}
+#img4 {
+  position: relative;
+}
+.hover4 {
+  position: absolute;
+  display: none;
+  margin-left: 0.5cm;
+  margin-top: 0.5cm;
+  border: 2px solid white;
+  height: 150px;
+  width: 5cm;
+  text-align: left;
+}
+#img5 {
+  position: relative;
+}
+.hover5 {
+  position: absolute;
+  display: none;
+  margin-left: 0.5cm;
+  margin-top: 0.5cm;
+  border: 2px solid white;
+  height: 150px;
+  width: 5cm;
+  text-align: left;
+}
+#img6 {
+  position: relative;
+}
+.hover6 {
+  position: absolute;
+  display: none;
+  margin-left: 0.5cm;
+  margin-top: 0.5cm;
+  border: 2px solid white;
+  height: 150px;
+  width: 5cm;
+  text-align: left;
+}
+#img7 {
+  position: relative;
+}
+.hover7 {
+  position: absolute;
+  display: none;
+  margin-left: 0.5cm;
+  margin-top: 0.5cm;
+  border: 2px solid white;
+  height: 150px;
+  width: 5cm;
+  text-align: left;
+}
+#img8 {
+  position: relative;
+}
+.hover8 {
+  position: absolute;
+  display: none;
+  margin-left: 0.5cm;
+  margin-top: 0.5cm;
   border: 2px solid white;
   height: 150px;
   width: 5cm;
