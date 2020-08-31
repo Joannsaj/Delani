@@ -53,7 +53,18 @@ form {
 }
 .form-group {
   width: 400px;
-  opacity: 0.4;
+}
+input[type=name] {
+  background-color: transparent;
+  color: white;
+}
+input[type=text] {
+  background-color: transparent;
+  color: white;
+}
+textarea {
+  background-color: transparent;
+  color: white;
 }
 button {
   opacity: 0.5;
