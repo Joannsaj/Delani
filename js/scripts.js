@@ -1,11 +1,11 @@
 $(document).ready(function () {
-    $("#click1").click(function () {
+    $(".cliick1").click(function () {
         $(".click1").toggle();
     });
-    $("#click2").click(function () {
+    $(".cliick2").click(function () {
         $(".click2").toggle();
     });
-    $("#click3").click(function () {
+    $(".cliick3").click(function () {
         $(".click3").toggle();
     });
 

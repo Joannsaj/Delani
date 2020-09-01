@@ -33,14 +33,6 @@ body {
   width: 100%;
   height: 100%;
 }
-.portfolio {
-  margin-left: 100px;
-  margin-right: 100px;
-}
-.portfolio2 {
-  margin-left: 100px;
-  margin-right: 100px;
-}
 .contact {
   background-image: url(../images/backgrounds/c_image.jpg);
   height: 500px;
@@ -63,6 +55,8 @@ input[type=text] {
   color: white;
 }
 textarea {
+  width: 800px;
+  height: 300px;
   background-color: transparent;
   color: white;
 }

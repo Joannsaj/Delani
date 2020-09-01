@@ -51,8 +51,8 @@
     </div>
     <div class="row text-center pt-4 what-we-do">
       <div class="col-md-4">
-        <img src="./images/services_icons/design_icon.png">
-        <h5><span id="click1">DESIGN</span></h5>
+        <img src="./images/services_icons/design_icon.png" class="cliick1">
+        <h5><span class="cliick1">DESIGN</span></h5>
         <p class="click1">Our design practice offers a full range of services including brand strategy, interaction and
           visual design
           and user experience testing.</p>
@@ -61,8 +61,8 @@
           feedback and work with you to make sure what gets built is what is needed.</p>
       </div>
       <div class="col-md-4">
-        <img src="./images/services_icons/dev_icon.png">
-        <h5><span id="click2">DEVELOPMENT</span></h5>
+        <img src="./images/services_icons/dev_icon.png" class="cliick2">
+        <h5><span class="cliick2">DEVELOPMENT</span></h5>
         <p class="click2">All engineers are fluent in the latest enterprise, mobile and web development technologies.
         </p>
         <p class="click2">They collaborate with your teams to write and improve code on a daily basis, using proven
@@ -70,8 +70,8 @@
           test-driven development and pair programming.</p>
       </div>
       <div class="col-md-4">
-        <img src="./images/services_icons/product_icon.png">
-        <h5><span id="click3">PRODUCT MANAGEMENT</span></h5>
+        <img src="./images/services_icons/product_icon.png" class="cliick3">
+        <h5><span class="cliick3">PRODUCT MANAGEMENT</span></h5>
         <p class="click3">Planning and development is iterative. Because we are constantly coding and testing,the
           products we build are
           always ready to go live.</p>
@@ -79,61 +79,63 @@
       </div>
     </div>
 
-    <div class="row portfolio text-center">
-      <div class="col-md-12">
-        <h3>PORTFOLIO</h3>
+    <div class="container">
+      <div class="row portfolio text-center">
+        <div class="col-md-12">
+          <h3>PORTFOLIO</h3>
+        </div>
+
+        <div class="col-md-3" id="img1">
+          <div class="hover1 text-white">
+            <h3>DELANI STUDIO</h3>
+          </div>
+          <img src="./images/portfolio/work4.jpg">
+        </div>
+        <div class="col-md-3" id="img2">
+          <div class="hover2 text-white">
+            <h3>DELANI STUDIO</h3>
+          </div>
+          <img src="./images/portfolio/work3.jpg">
+        </div>
+        <div class="col-md-3" id="img3">
+          <div class="hover3 text-white">
+            <h3>DELANI STUDIO</h3>
+          </div>
+          <img src="./images/portfolio/work2.jpg">
+        </div>
+        <div class="col-md-3" id="img4">
+          <div class="hover4 text-white">
+            <h3>DELANI STUDIO</h3>
+          </div>
+          <img src="./images/portfolio/work1.jpg">
+        </div>
       </div>
 
-      <div class="col-md-3" id="img1">
-        <div class="hover1 text-white">
-          <h3>DELANI STUDIO</h3>
+      <div class="row portfolio2 pt-5 pb-5">
+        <div class="col-md-3" id="img5">
+          <div class="hover5 text-white">
+            <h3>DELANI STUDIO</h3>
+          </div>
+          <img src="./images/portfolio/work5.jpg">
         </div>
-        <img src="./images/portfolio/work4.jpg">
-      </div>
-      <div class="col-md-3" id="img2">
-        <div class="hover2 text-white">
-          <h3>DELANI STUDIO</h3>
+        <div class="col-md-3" id="img6">
+          <div class="hover6 text-white">
+            <h3>DELANI STUDIO</h3>
+          </div>
+          <img src="./images/portfolio/work6.jpg">
         </div>
-        <img src="./images/portfolio/work3.jpg">
-      </div>
-      <div class="col-md-3" id="img3">
-        <div class="hover3 text-white">
-          <h3>DELANI STUDIO</h3>
+        <div class="col-md-3" id="img7">
+          <div class="hover7 text-white">
+            <h3>DELANI STUDIO</h3>
+          </div>
+          <img src="./images/portfolio/work7.jpg">
         </div>
-        <img src="./images/portfolio/work2.jpg">
-      </div>
-      <div class="col-md-3" id="img4">
-        <div class="hover4 text-white">
-          <h3>DELANI STUDIO</h3>
+        <div class="col-md-3" id="img8">
+          <div class="hover8 text-white">
+            <h3>BAILEY WONGER</h3>
+          </div>
+          <img src="./images/portfolio/work8.jpg">
         </div>
-        <img src="./images/portfolio/work1.jpg">
-      </div>
-    </div>
-
-    <div class="row portfolio2 pt-5 pb-5">
-      <div class="col-md-3" id="img5">
-        <div class="hover5 text-white">
-          <h3>DELANI STUDIO</h3>
-        </div>
-        <img src="./images/portfolio/work5.jpg">
-      </div>
-      <div class="col-md-3" id="img6">
-        <div class="hover6 text-white">
-          <h3>DELANI STUDIO</h3>
-        </div>
-        <img src="./images/portfolio/work6.jpg">
-      </div>
-      <div class="col-md-3" id="img7">
-        <div class="hover7 text-white">
-          <h3>DELANI STUDIO</h3>
-        </div>
-        <img src="./images/portfolio/work7.jpg">
-      </div>
-      <div class="col-md-3" id="img8">
-        <div class="hover8 text-white">
-          <h3>BAILEY WONGER</h3>
-        </div>
-        <img src="./images/portfolio/work8.jpg">
       </div>
     </div>
 
@@ -151,7 +153,7 @@
           </div>
           <div class="form-row">
             <div class="form-group">
-              <textarea name="comment" rows="12" cols="100" value="" placeholder="Your message here..."></textarea>
+              <textarea name="comment" value="" placeholder="Your message here..."></textarea>
             </div>
           </div>
           <button type="submit" class="btn-btn primary">
