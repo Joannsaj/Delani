@@ -1,12 +1,27 @@
 $(document).ready(function () {
     $(".cliick1").click(function () {
-        $(".click1").toggle();
+        $(".cliick1").hide();
+        $(".click1").show();
     });
     $(".cliick2").click(function () {
-        $(".click2").toggle();
+        $(".cliick2").hide();
+        $(".click2").show();
     });
     $(".cliick3").click(function () {
-        $(".click3").toggle();
+        $(".cliick3").hide();
+        $(".click3").show();
+    });
+    $(".click1").click(function () {
+        $(".click1").hide();
+        $(".cliick1").show();
+    });
+    $(".click2").click(function () {
+        $(".click2").hide();
+        $(".cliick2").show();
+    });
+    $(".click3").click(function () {
+        $(".click3").hide();
+        $(".cliick3").show();
     });
 
 
