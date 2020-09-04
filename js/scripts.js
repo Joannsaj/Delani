@@ -40,5 +40,10 @@ function getInfo() {
     var name = document.getElementById("name").value
     var email = document.getElementById("email").value
     var comment = document.getElementsByName("comment").value
-    alert(name + "," + "we have received your message.Thank you for reaching out to us.");
+
+    if (name) {
+        alert(name + "," + "we have received your message.Thank you for reaching out to us.");
+    } else {
+
+    }
 }
